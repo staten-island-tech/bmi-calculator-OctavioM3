@@ -40,3 +40,12 @@ function calc() {
     console.log(sum);
 }
 calc();
+*/
+
+let weight = Number(prompt("enter weight"));
+let height = Number(prompt("enter height"));
+console.log(calcBMI)
+function calcBMI (x){
+let BMI = (weight / height **2) * 703;
+return BMI;
+}
