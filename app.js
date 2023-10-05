@@ -1,8 +1,7 @@
 let WeightKg = Number(prompt("Enter weight in kilograms"));
 let HeightCm = Number(prompt("Enter height in centimeters"));
 function calcBMI (WeightKg, HeightCm) {
-    const BMI = ((WeightKg / (WeightKg * HeightCm)) * 703);
-    return BMI;
+    return BMI = ((WeightKg / (WeightKg * HeightCm)) * 703);
 }
 console.log(BMI)
 
