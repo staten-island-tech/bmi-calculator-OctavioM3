@@ -10,9 +10,9 @@ function BMIrange() {
     } else if (BMI < 25){
         return ("healthy");
     } else if (BMI < 30){
-        return ("overweight");
+        return ("unhealthy");
     } else {
-        return ("obese");
+        return ("dangerous");
     }
 }
 
