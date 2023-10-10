@@ -1,8 +1,8 @@
 
-let firstName = prompt("Enter first name");
-let lastName = prompt("Enter last name");
+
 let WeightKg = Number(prompt("Enter weight in kilograms"));
 let HeightCm = Number(prompt("Enter height in centimeters"));
+let Name = (prompt("Enter Name"));
 
 function calcBMI(WeightKg, HeightCm) {
     return ((WeightKg / (WeightKg * HeightCm)) * 10000);
@@ -24,6 +24,10 @@ const BMI =
 calcBMI(WeightKg, HeightCm);
 const range = BMIrange(WeightKg, HeightCm);
 
-console.log("User Name " + firstName + lastName)
+function argument(user) {
+    console.log(`User Name ${user}`);
+}
+argument(Name)
+
 console.log("User BMI " + BMI);
 console.log("User BMI range " + range);
